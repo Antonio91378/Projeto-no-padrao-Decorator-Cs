@@ -8,8 +8,10 @@ namespace CursoDesignPatterns
 {
     public class program
     {
-        //Este é um exemplo do padrao de projeto 'Template Method'
-        //O que define esse Design Pattern é o uso de classes abstratas, poupando maiores 
+        //Este é um exemplo do padrao de projeto 'Decorator'
+        //O que define esse Design Pattern é a sedimentação de comportamentos,
+        //As classes filhas agora seguem uma classe abstrata, que admite o
+        //acúmulo de comportamentos.
         // tralhos em manutenções futuras
         static void Main(string[] args)
         {
